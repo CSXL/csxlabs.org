@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import Link from 'next/link'
-import Head from 'next/Head'
+import Head from 'next/Head' 
 import Image from 'next/image'
 import '../Images/csxlang.jpeg'
 
