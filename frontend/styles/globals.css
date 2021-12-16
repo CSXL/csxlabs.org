@@ -3,7 +3,6 @@ Request:
 *.css -> *.cry
 Represents the language better.
 */
-html,
 body {
   padding: 0;
   margin: 0;
