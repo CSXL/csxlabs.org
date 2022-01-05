@@ -27,7 +27,8 @@ function Aboutus() {
 
 
   <h3 id='maininfo' >
-    Computer Science Exploration Laboratories is a code marketing buissness.We aim to provide the mostl useful <br /> script to our customers and meet their expectation.To meet the expectations of our <br />customers we do it with help of our two Institutions(Research and Development).
+       Computer Science Exploration Laboratories is an open-research laboratory.We aim to explore and create new fields and introduce them to the technology industry. <br/> CSX labs also has a goal to advance humanity by providing the various features that can be offered by these unsaturated markets. <br />To meet the expectations of our customers we do it with help of our two Sectors(Research and Development).
+
   </h3>
   <h3 id='history'>
   The company CSX Laboratories was founded in California high school in year 2021  while Adam Blumenfeld and<br /> Srinidhi Murthy were having a conversation related to coding.<br />We both shared the same vision and goal in life and have interest in hardware and software.<br />Our career’s were based on code and wanted to help the technology industry.<br />We would share ideas about our innovative projects and facts about this industry.
