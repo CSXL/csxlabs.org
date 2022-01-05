@@ -27,7 +27,7 @@ function Aboutus() {
 
 
   <h3 id='maininfo' >
-       Computer Science Exploration Laboratories is an open-research laboratory.We aim to explore and create new fields and introduce them to the technology industry. <br/> CSX labs also has a goal to advance humanity by providing the various features that can be offered by these unsaturated markets. <br />To meet the expectations of our customers we do it with help of our two Sectors(Research and Development).
+       Computer Science Exploration Laboratories is an open-research laboratory.We aim to explore and create new fields and introduce them to the technology industry. <br/> CSX labs also has a goal to advance humanity by providing the various features that can be offered by these unsaturated markets. <br />To meet the expectations of our customers we do it with help of our two Sectors(Research and Solutions).
 
   </h3>
   <h3 id='history'>
@@ -37,14 +37,14 @@ function Aboutus() {
 <ul >
 <li >
 
-  <h1 id='left'>Development Institution</h1><br />
-  The development institution is one division of CSX Labs.We specialize in the development of customizable and advanced source code.We aim to make every product unique and make them have something great to offer.What makes this sector of the company different is the quality of our products,uniqueness and delivery.We plan to deliver our products via GitHub or through our website itself.The Development Institution aims to be affordable and not be overpriced.
+  <h1 id='left'>Solutions Services</h1><br />
+  The solutions service is one division of CSX Labs.We specialize in the development of customizable and advanced source code.We aim to make every product unique and make them have something great to offer.What makes this sector of the company different is the quality of our products,uniqueness and delivery.We plan to deliver our products via GitHub or through our website itself.The Solutions service aims to be affordable and not be overpriced.
 
 </li> 
 <li >
-    <h1 id='right'>Research Institution</h1>
+    <h1 id='right'>Research Services</h1>
     <br />
-    The research Institution is the other sector of the company that aims to build advanced standard products for customers.We aim to build products in the unsaturated<br /> fields of the computer science market.We want every field in this industry to offer something unique<br /> and new in the same time.<br />Our products can be used by customers for education purposes,products for start ups etc. 
+    The Research service is the other sector of the company that aims to build advanced standard products for customers.We aim to build products in the unsaturated<br /> fields of the computer science market.We want every field in this industry to offer something unique<br /> and new in the same time.<br />Our products can be used by customers for education purposes,products for start ups etc. 
 
   </li>
 </ul>
