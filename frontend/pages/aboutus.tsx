@@ -27,7 +27,7 @@ function Aboutus() {
 
 
   <h3 id='maininfo' >
-       Computer Science Exploration Laboratories is an open-research laboratory.We aim to explore and create new fields and introduce them to the technology industry. <br/> CSX labs also has a goal to advance humanity by providing the various features that can be offered by these unsaturated markets. <br />To meet the expectations of our customers we do it with help of our two Sectors(Research and Solutions).
+       Computer Science Exploration Laboratories is an open-research laboratory.We aim to explore and create new fields and introduce people to these market of the technology industry. <br/> CSX labs also has a goal to advance humanity by providing the various features that can be offered by these unsaturated markets. <br />To meet the expectations of our customers we do it with help of our two Sectors(Research and Solutions).
 
   </h3>
   <h3 id='history'>
