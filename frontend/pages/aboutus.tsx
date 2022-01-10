@@ -38,7 +38,7 @@ function Aboutus() {
 <li >
 
   <h1 id='left'>Solutions Services</h1><br />
-  The solutions service is one division of CSX Labs.We specialize in the development of customizable and advanced source code.We aim to make every product unique and make them have something great to offer.What makes this sector of the company different is the quality of our products,uniqueness and delivery.We plan to deliver our products via GitHub or through our website itself.The Solutions service aims to be affordable and not be overpriced.
+  The solutions service is one division of CSX Labs.We specialize in the development of customizable and advanced source code.We aim to make every product unique and make them have something great to offer.What makes this sector of the company different is the quality of our products,uniqueness and delivery.We plan to deliver our products via GitHub or through our website itself.
 
 </li> 
 <li >
