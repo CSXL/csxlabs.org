@@ -44,7 +44,7 @@ function Aboutus() {
 <li >
     <h1 id='right'>Research Services</h1>
     <br />
-    The Research service is the other sector of the company that aims to build advanced standard products for customers.We aim to build products in the unsaturated<br /> fields of the computer science market.We want every field in this industry to offer something unique<br /> and new in the same time.<br />Our products can be used by customers for education purposes,products for start ups etc. 
+    The solutions service is one division of CSX Labs.We specialize in the development of<br/>customizable and advanced source code.We aim to make every product unique and make <br />them have something great to offer.What makes this sector of the company different is the<br />quality of our products,uniqueness and delivery.Additionally this sector hosts solutions and<br /> approaches to various unsaturated markets.We plan to deliver our products via GitHub or<br />through our website itself. 
 
   </li>
 </ul>
