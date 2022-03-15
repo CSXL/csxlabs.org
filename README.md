@@ -11,22 +11,10 @@ The formation and planning is currently underway.
 ## Website
 The purpose of this website is to host **organization information**, **research**, **educational resources**, **internal & external infrastructure integration**, and **contact information**. It will be the silk holding our organization together.
 ### Roadmap
-#### 2021
-
-**Q4** 
-
- - [ ] Finish and publish plan (requirements, layout, and stack info.) for website
- - [ ] Draft first research paper
- - [X] Reach 15+ members ready to train
-
 #### 2022
 **Q1**
- - [ ] Start interviewing and delegating roles to team
- - [ ] Publish organization information on web page
- - [ ] Host first revision of research paper on website
- - [ ] Integrate third-party services for team use on website
- - [ ] Set up core organizational workflow
- - [ ] Start on curriculum for team training
+ - [ ] Business development
+ - [ ] Create curriculum for team training
 
 **Q2**
 - [ ] Finalize and publish curriculum for team training
