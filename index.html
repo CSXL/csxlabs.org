@@ -15,8 +15,7 @@
   <link rel="canonical" href="https://csxlabs.org" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Quicksand:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">  <link rel="stylesheet" href="index.css">
   <link rel="icon" href="assets/favicon.svg">
   <script src="index.js"></script>
   <style>
@@ -89,12 +88,12 @@
         <fieldset class="contact-fieldset contact-input">
           <legend>Preferred Contact Method</legend>
           <div>
-            <input type="radio" name="contact_method" value="Email">
-            <label for="Email">Email</label>
+            <input type="radio" name="contact_method" id="email" value="Email">
+            <label for="email">Email</label>
           </div>
           <div>
-            <input type="radio" name="contact_method" value="Phone">
-            <label for="Phone">Phone</label>
+            <input type="radio" name="contact_method" id="phone" value="Phone">
+            <label for="phone">Phone</label>
           </div>
         </fieldset>
         <textarea name="inquiry" placeholder="Inquiry" class="contact-input" required></textarea>
