@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSX Labs: Launching ideas into cyberspace.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <a href="#">
+        <img src="assets/brand.svg" alt="CSX Labs Logo" class="navbar-logo">
+      </a>
+    </div>
+    <div class="navbar-center">
+      <a href="#about" class="navbar-link">About</a>
+      <a href="#services" class="navbar-link">Services</a>
+    </div>
+    <div class="navbar-right">
+      <a href="#contact" class="outlined-button">Contact</a>
+    </div>
+  </nav>
+  <main>
+    <div class="section hero">
+      <div class="hero-left">
+        <h1 class="hero-tagline">Launching ideas into cyberspace.</h1>
+        <!-- "&#8209;" is a non-breaking hyphen ("-" character). Reference: https://en.wikipedia.org/wiki/Wikipedia:Non-breaking_hyphen -->
+        <p class="hero-subheading">Our mission is to advance technology for humanity by creating and contributing to inspiring, emerging, and re&#8209;purposed software&#8209;related technologies.</p>
+        <a href="#about" class="filled-button hero-button">Learn More</a>
+      </div>
+      <div class="hero-right">
+        <img src="assets/abstract-laptop.webp" alt="Demonstrating illustration." class="hero-image">
+      </div>
+    </div>
+    <!-- About -->
+    <div class="section about" id="about">
+      <h1 class="about-heading">About</h1>
+      <p class="about-text">CSX Labs (Computer Science Exploration Laboratories) is a collection of open research and development laboratories dedicated to exploring, developing, and promoting unsaturated technologies for the advancement of humanity.</p>
+    </div>
+    <!-- Services -->
+    <div class="section services" id="services">
+      <h1 class="services-heading">Services</h1>
+      <div class="services-content">
+        <div class="services-card">
+          <img src="assets/development.png" alt="Development" class="services-card-image">
+          <h2 class="services-card-heading">Development</h2>
+          <p class="services-card-text">We develop open-source projects in all shapes and sizes. We pride ourselves on the delivery of projects and the maintainability of our code.</p>
+        </div>
+        <div class="services-card">
+          <img src="assets/design.png" alt="Design" class="services-card-image">
+          <h2 class="services-card-heading">Design</h2>
+          <p class="services-card-text">We design backends that scale. Whether you are a small business or government, we can design a scaleable roadmap to your success.</p>
+        </div>
+        <div class="services-card">
+          <img src="assets/research.png" alt="Research" class="services-card-image">
+          <h2 class="services-card-heading">Research</h2>
+          <p class="services-card-text">We conduct research on emerging areas of technology, as in areas that have the potential to change lives all across the globe. From Quantum to Blockchain, no project is too ambitous for our youthful team.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="section contact" id="contact">
+      <h1 class="contact-heading">Contact Us</h1>
+      <p class="contact-description">We would love to hear from you. Please fill out the form below and we will get back to you as soon as possible.</p>
+      <form action="https://formspree.io/f/mzbqpwdd" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Name" class="contact-input" required>
+        <input type="email" name="email" placeholder="Email" class="contact-input" required>
+        <input type="tel" name="phone" placeholder="Phone Number (Optional)" class="contact-input">
+        <input type="text" name="organization" placeholder="Organization" class="contact-input" required>
+        <input type="text" name="organization_role" placeholder="Role at Organization (Optional)" class="contact-input">
+        <fieldset class="contact-fieldset contact-input">
+          <legend>Preferred Contact Method</legend>
+          <div>
+            <input type="radio" name="contact_method" value="Email">
+            <label for="Email">Email</label>
+          </div>
+          <div>
+            <input type="radio" name="contact_method" value="Phone">
+            <label for="Phone">Phone</label>
+          </div>
+        </fieldset>
+        <textarea name="inquiry" placeholder="Inquiry" class="contact-input" required></textarea>
+        <button type="submit" class="filled-button">Send</button>
+      </form>
+    </div>
+    <!-- Footer -->
+    <footer class="section footer" id="footer">
+      <div class="footer-left">
+        <img src="assets/brand.svg" alt="CSX Labs Logo" class="footer-logo">
+        <p class="footer-text">CSX Labs is a collection of open research and development laboratories dedicated to exploring, developing, and promoting unsaturated technologies for the advancement of humanity.</p>
+      </div>
+      <div class="footer-right">
+        <div class="footer-social">
+          <a href="mailto:info@csxlabs.org" target="_blank" class="footer-link">
+            <img src="assets/mail.svg" alt="email" class="footer-social-icon">
+          </a>
+          <a href="https://github.com/CSXL" target="_blank" class="footer-link">
+            <img src="assets/github.svg" alt="GitHub" class="footer-social-icon">
+          </a>
+        </div> 
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

@@ -8,3 +8,7 @@ CSX Labs (Computer Science Exploration Laboratories) is a collection of [open-re
 
 ## Website
 The purpose of this website is to host **organization information**, **research**, **educational resources**, **internal & external infrastructure integration**, and **contact information**. It will be the silk holding our organization together.
+
+## Current Status
+We are currently building our website further, in the meantime we wrote a landing page to hold some basic information.
+
