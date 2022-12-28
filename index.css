@@ -230,6 +230,7 @@ p {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "left" "right";
+    padding-bottom: 0;
   }
 }
 
@@ -302,6 +303,12 @@ p {
   line-height: 1.5;
 }
 
+@media screen and (max-width: 600px) {
+  .about {
+    padding-top: 0;
+  }
+}
+
 /* Services */
 .services {
   background-color: var(--light-grey);
@@ -309,6 +316,7 @@ p {
   text-align-last: center;
   grid-template-rows: 2rem 3fr;
   grid-template-areas: "heading" "content";
+  row-gap: 1rem;
   justify-items: center;
   align-items: center;
 }
@@ -443,6 +451,62 @@ fieldset.contact-fieldset > input.contact-input {
 
 .contact-input::placeholder {
   font-family: inherit;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    box-sizing: content-box;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    box-sizing: content-box;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: var(--matte-black);
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--matte-black);
+    border-radius: 100%;
+    background: var(--white);
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: var(--brand-purple);
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    box-sizing: content-box;
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    box-sizing: content-box;
+    transform: scale(1);
 }
 
 /* Footer */
