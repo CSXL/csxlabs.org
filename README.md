@@ -1,5 +1,5 @@
 # csxlabs.org
-![made by CSX Labs](https://csxlabs.org/badges/made_by_csx_labs.svg)
+[![made by CSX Labs](https://csxlabs.org/badges/made_by_csx_labs.svg)](https://csxlabs.org)
 
 [Open-research](https://en.wikipedia.org/wiki/Open_research) exploring new and developing areas of technology.
 
