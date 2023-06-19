@@ -12,8 +12,8 @@ Styles for the index page
   --brand-orange: #8F3C00;
   --brand-purple: #4E0069;
   
-  --text: var(--off-black);
-  --background: var(--white);
+  --text: var(--off-white);
+  --background: var(--matte-black);
 }
 
 html {
@@ -98,6 +98,11 @@ h6 {
 
 p {
   margin: 0;
+}
+
+/* Thread background */
+.background-threads {
+  background: url('/assets/backgrounds/threads.png');
 }
 
 /* Buttons */
@@ -221,7 +226,7 @@ p {
 
 /* Hero */
 .hero {
-  color: var(--off-black);
+  color: var(--off-white);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -265,7 +270,7 @@ p {
 
 .hero-subheading {
   grid-area: subheading;
-  color: var(--matte-black);
+  color: var(--off-white);
   font-weight: 250;
   font-size: 1.5rem;
 }
@@ -300,6 +305,8 @@ p {
 /* About */
 .about {
   padding-bottom: 6rem;
+  background-color: var(--off-white);
+  color: var(--matte-black);
 }
 
 .about-text {
@@ -317,6 +324,7 @@ p {
 /* Services */
 .services {
   background-color: var(--light-grey);
+  color: var(--matte-black);
   display: grid;
   text-align-last: center;
   grid-template-rows: 2rem 3fr;
@@ -406,6 +414,9 @@ p {
 
 .contact-form {
   display: grid;
+  color: var(--matte-black);
+  background-color: var(--white);
+  padding: 2rem;
   grid-template-rows: repeat(auto-fit, 1fr);
   column-gap: 2rem;
   row-gap: 1rem;
@@ -517,6 +528,7 @@ fieldset.contact-fieldset > input.contact-input {
 /* Footer */
 .footer {
   background-color: var(--light-grey);
+  color: var(--matte-black);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "left right";
