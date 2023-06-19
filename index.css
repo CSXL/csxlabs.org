@@ -15,6 +15,7 @@ Styles for the index page
   --text: var(--off-white);
   --purple-text: #edbaff;
   --light-purple-text: #f5dbff;
+  --light-orange-text: #ffe1c0;
   --background: var(--black);
 }
 
@@ -402,6 +403,8 @@ p {
 
 .services-card:hover {
   background-color: var(--off-black);
+  border: 1px solid var(--light-orange-text);
+  color: var(--light-orange-text);
 }
 
 .services-card-icon {
