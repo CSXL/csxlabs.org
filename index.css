@@ -233,7 +233,6 @@ p {
 
 /* Hero */
 .hero {
-  color: var(--off-white);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -313,9 +312,6 @@ p {
 /* About */
 .about {
   padding-bottom: 6rem;
-  background-color: var(--light-grey);
-  color: var(--matte-black);
-  border-bottom: 1px solid var(--matte-black);
 }
 
 .about-text {
@@ -326,8 +322,6 @@ p {
 
 /* Services */
 .services {
-  background-color: var(--light-grey);
-  color: var(--matte-black);
   display: grid;
   text-align-last: left;
   grid-template-rows: 2rem 3fr;
@@ -368,12 +362,12 @@ p {
   height: 100%;
   justify-items: center;
   align-items: center;
-  border: 1px solid var(--matte-black);
+  border: 1px solid var(--off-white);
   padding: max(1rem, 1vw);
 }
 
 .services-card:hover {
-  background-color: var(--off-white);
+  background-color: var(--off-black);
 }
 
 .services-card-icon {
