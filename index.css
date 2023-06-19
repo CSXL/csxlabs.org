@@ -365,7 +365,7 @@ p {
 .services-card {
   display: grid;
   grid-template-rows: 1fr 1fr 2fr;
-  grid-template-areas: "image" "heading" "text";
+  grid-template-areas: "icon" "heading" "text";
   justify-items: center;
   align-items: center;
   border: 1px solid var(--matte-black);
@@ -376,10 +376,9 @@ p {
   background-color: var(--off-white);
 }
 
-.services-card-image {
-  grid-area: image;
-  height: 5rem;
-  width: auto;
+.services-card-icon {
+  grid-area: icon;
+  font-size: 5rem;
 }
 
 .services-card-heading {
