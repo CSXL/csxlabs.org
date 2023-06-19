@@ -363,9 +363,9 @@ p {
 }
 
 .services-card {
-  display: grid;
-  grid-template-rows: 1fr 1fr 2fr;
-  grid-template-areas: "icon" "heading" "text";
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   justify-items: center;
   align-items: center;
   border: 1px solid var(--matte-black);
@@ -377,19 +377,16 @@ p {
 }
 
 .services-card-icon {
-  grid-area: icon;
   font-size: 5rem;
 }
 
 .services-card-heading {
-  grid-area: heading;
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.2;
 }
 
 .services-card-text {
-  grid-area: text;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
