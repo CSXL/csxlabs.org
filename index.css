@@ -13,7 +13,7 @@ Styles for the index page
   --brand-purple: #4E0069;
   
   --text: var(--off-white);
-  --background: var(--matte-black);
+  --background: var(--black);
 }
 
 html {
@@ -25,6 +25,7 @@ html {
 }
 
 body {
+  background: var(--background);
   background: linear-gradient(
     var(--matte-black) 0%,
     var(--off-black) 20%,
@@ -46,14 +47,14 @@ body {
 }
 
 #content {
-  padding-bottom: 15rem;
+  padding-bottom: 20rem;
 }
 
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 15rem;
+  max-height: 20rem;
 }
 
 main {
@@ -78,8 +79,8 @@ img {
 @media screen and (max-width: 600px) {
   .section {
     width: 100%;
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
@@ -267,7 +268,7 @@ p {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "left" "right";
-    padding-bottom: 0;
+    padding: 0 1rem;
   }
 }
 
@@ -604,12 +605,12 @@ fieldset.contact-fieldset > input.contact-input {
   .footer-left {
     grid-area: left;
     justify-items: left;
-    align-items: left;
+    align-items: center;
   }
   .footer-right {
     grid-area: right;
     justify-items: left;
-    justify-self: left;
+    justify-self: center;
     align-items: left;
   }
   .footer-logo {
@@ -622,6 +623,9 @@ fieldset.contact-fieldset > input.contact-input {
     column-gap: 0.5rem;
     justify-items: left;
     align-items: left;
+  }
+  .footer-text {
+    display: none;
   }
 }
 
