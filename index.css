@@ -13,6 +13,8 @@ Styles for the index page
   --brand-purple: #4E0069;
   
   --text: var(--off-white);
+  --purple-text: #edbaff;
+  --light-purple-text: #f5dbff;
   --background: var(--black);
 }
 
@@ -31,7 +33,7 @@ body {
     var(--off-black) 20%,
     var(--black) 100%
   );
-  color: var(--text);
+  color: var(--light-purple-text);
   font-family: 'DM Sans', 'Quicksand', 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -73,6 +75,7 @@ img {
   font-size: 2rem;
   font-weight: 500;
   line-height: 1.2;
+  color: var(--purple-text);
   font-family: 'Geologica', sans-serif;
 }
 
@@ -287,6 +290,7 @@ p {
   grid-area: "tagline";
   font-weight: 500;
   line-height: 1.2;
+  color: var(--purple-text);
   font-size: 3rem;
   font-family: 'Geologica', 'DM Sans', sans-serif;
 }
@@ -299,7 +303,6 @@ p {
 
 .hero-subheading {
   grid-area: subheading;
-  color: var(--off-white);
   font-weight: 250;
   font-size: 1.5rem;
 }
@@ -393,7 +396,7 @@ p {
   height: 100%;
   justify-items: center;
   align-items: center;
-  border: 1px solid var(--off-white);
+  border: 1px solid var(--purple-text);
   padding: max(1rem, 1vw);
 }
 
