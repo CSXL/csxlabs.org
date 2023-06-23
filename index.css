@@ -129,6 +129,10 @@ h6 {
   font-size: 0.875rem;
 }
 
+a {
+  color: var(--brand-orange);
+}
+
 p {
   margin: 0;
 }
