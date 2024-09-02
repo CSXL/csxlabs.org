@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Schibsted_Grotesk } from "next/font/google";
 import clsx from "clsx";
 import "./globals.css";
+import { Header } from "@/components/Header";
 
 const schibested_grotesk = Schibsted_Grotesk({ subsets: ["latin"] });
 
@@ -17,7 +18,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(schibested_grotesk.className, 'bg-slate-950')}>{children}</body>
+      <body className={clsx(schibested_grotesk.className, 'bg-neutral-800 text-neutral-50')}>
+        <Header 
+          links={[
+            {
+              title: "PROJECTS",
+              url: "/projects"
+            }
+          ]}
+        />
+        {children}
+      </body>
     </html>
   );
 }
