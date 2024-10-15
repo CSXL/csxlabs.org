@@ -1,3 +1,5 @@
+import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
+import { LinkPreview } from "@/components/ui/link-preview";
 import React from "react";
 
 export default function Home() {
@@ -38,6 +40,11 @@ export default function Home() {
             <br /><br />
             Our health as a business is our creation of core, resistant businesses that are financially healthy regardless of market volatility. We regard financial health as a profitable business that can operate free of market conditions and stick to core principles when making decisions. Advertising makes free products cash flow positive but can drive companies to stay in a narrow chamber on social issues and align with the status quo. We aim to build financially stable businesses with “fortress balance sheets” (a term from Jamie Dimon, CEO of JP Morgan Chase) to operate best to our mission, not our image.
           </p>
+        </Section>
+        <Section>
+          <LinkPreview url="https://google.com">
+            Google
+          </LinkPreview>
         </Section>
       </div>
     </>
