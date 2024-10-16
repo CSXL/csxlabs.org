@@ -14,7 +14,7 @@ export default function Home() {
           <p>
             Professors expressed to us that they spend a lot of time applying for federal and private grants to fund their research and, once secured, pursue targeted results by these companies and governments to renew their funding sources. Some researchers expressed an apathy towards the applicability of their work and felt it was out of their control.
             <br /><br />
-            Software Engineers at Google, Meta, and other big tech companies expressed dissatisfaction with the impact of the work and scope of their responsibility. Many people we talked to were starting side projects to spin off into startups. 
+            Software Engineers at <LinkPreview url="https://news.ycombinator.com/item?id=32415934">Google</LinkPreview>, <LinkPreview url="https://alvinwan.com/why-and-why-not-work-at-meta/">Meta</LinkPreview>, and other big tech companies expressed dissatisfaction with the impact of the work and scope of their responsibility. Many people we talked to were starting side projects to spin off into startups. 
             <br /><br />
             Our anecdotal experience was that with startup-related projects we&apos;ve worked on in the past, the pressure of immediate hyperbolic growth led us to sacrifice the pursuit of superior technology for humanity to tend to other bars to try to impress investors or achieve short-term growth. 
           </p>
@@ -23,7 +23,13 @@ export default function Home() {
             <br /><br />
             We used GPT-3 in an education platform before ChatGPT was released, and although it was evident in hindsight, we never would have considered its growth once it reached consumers.
             <br /><br />
-            This story proved that hacking growth is not a great use of our time, and it will come with care of the technology and the people using it. Pursuing knowledge in academia still puts someone else in control of our capital and the general direction of our endeavors.
+            This story proved that hacking growth is not a great use of our time, and it will come with care of the technology and the people using it. <LinkPreview
+              imageSrc="/site-thumbnails/sam-altman-iit-interview.png"
+              isStatic={true}
+              url="https://www.youtube.com/live/Pig9WbMN1lQ?si=5hLkSjLqZyMNu4vm&t=1220"
+            >
+              Traditional startup advice is useful but not the rule
+            </LinkPreview>. Pursuing knowledge in academia still puts someone else in control of our capital and the general direction of our endeavors.
           </p>
         </Section>
         <Section>
@@ -42,9 +48,18 @@ export default function Home() {
           </p>
         </Section>
         <Section>
-          <LinkPreview url="https://google.com">
-            Google
-          </LinkPreview>
+          <h2>AMELIA</h2>
+          <p>
+            We introduce{" "}
+            <LinkPreview 
+              imageSrc="/site-thumbnails/google-docs.avif"
+              isStatic={true}
+              url="https://docs.google.com/document/d/1bPdp7qnl5W4JDvfUu2DJ5r8kizlN-MF9UsgO-y49qzQ/edit?usp=sharing"
+            >
+              Amelia
+            </LinkPreview>{", "}
+            our system for incubating robust, profitable businesses through the execution of academic research in technology products.
+          </p>
         </Section>
       </div>
     </>
