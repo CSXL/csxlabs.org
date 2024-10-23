@@ -1,4 +1,3 @@
-import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 import { LinkPreview } from "@/components/ui/link-preview";
 import React from "react";
 
@@ -6,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div className="h-screen w-full text-center content-center">
-        <h1 className="flex items-center justify-center text-left text-wrap p-4 text-2xl">we bring research to market</h1>
+        <h1 className="flex items-center justify-center text-left text-wrap p-4 text-2xl">a research institution that creates startups</h1>
       </div>
       <div className="p-4 text-sm flex flex-col gap-24">
         <Section>
@@ -45,6 +44,15 @@ export default function Home() {
             <i>Health is wealth.</i> There is an epedemic of burnout amoung software engineers at a variety of comapnies, big and small. The personal health and alignment of values amoung our members with the group is prioritized over business metrics, financial and otherwise.
             <br /><br />
             Our health as a business is our creation of core, resistant businesses that are financially healthy regardless of market volatility. We regard financial health as a profitable business that can operate free of market conditions and stick to core principles when making decisions. Advertising makes free products cash flow positive but can drive companies to stay in a narrow chamber on social issues and align with the status quo. We aim to build financially stable businesses with “fortress balance sheets” (a term from Jamie Dimon, CEO of JP Morgan Chase) to operate best to our mission, not our image.
+            <br /><br />
+            On March 10th, 2024, our core team members solemnly swore to solidarity in advancing technology for humanity by our principles and the characteristics outlined in an{" "}
+            <LinkPreview
+              imageSrc="/site-thumbnails/google-docs.avif"
+              isStatic={true}
+              url="https://drive.google.com/file/d/1dr74v3FQz4xgiCksmLZyTspa973SigOc/view?usp=sharing">
+              Oath of Solidarity
+            </LinkPreview>{". "}
+            This Oath goes beyond the company but rather an alignment of our life purpose and professional principles we abide by. The company and every other company we share as individuals are vehicles for carrying out that purpose and environments to re-enforce those principles.
           </p>
         </Section>
         <Section>
