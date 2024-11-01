@@ -66,7 +66,7 @@ export default function Home() {
             >
               Amelia
             </LinkPreview>{", "}
-            our system for incubating robust, profitable businesses through the execution of academic research in technology products.
+            our system for incubating robust, profitable businesses through the execution of academic research in startup technology products. We are currently working on solving tariff and customs management, starting with construction companies in a product called Riff.
           </p>
         </Section>
       </div>
