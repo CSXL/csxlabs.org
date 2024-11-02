@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(schibested_grotesk.className, 'bg-neutral-800 text-neutral-50')}>
+      <body className={clsx(schibested_grotesk.className, 'dark bg-neutral-800 text-neutral-50')}>
         <Header 
           links={[
             {

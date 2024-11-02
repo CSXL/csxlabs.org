@@ -1,11 +1,14 @@
+import { Icon } from "@iconify/react";
 import { LinkPreview } from "@/components/ui/link-preview";
+import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
       <div className="h-screen w-full text-center content-center">
-        <h1 className="flex items-center justify-center text-left text-wrap p-4 text-2xl">a research institution that creates startups</h1>
+        <h1 className="flex items-center justify-center text-left text-wrap p-4 text-2xl">a research institution that starts startups</h1>
       </div>
       <div className="p-4 text-sm flex flex-col gap-24">
         <Section>
@@ -56,18 +59,49 @@ export default function Home() {
           </p>
         </Section>
         <Section>
-          <h2>AMELIA</h2>
+          <h2>MODEL</h2>
           <p>
-            We introduce{" "}
             <LinkPreview 
               imageSrc="/site-thumbnails/google-docs.avif"
               isStatic={true}
               url="https://docs.google.com/document/d/1bPdp7qnl5W4JDvfUu2DJ5r8kizlN-MF9UsgO-y49qzQ/edit?usp=sharing"
             >
               Amelia
-            </LinkPreview>{", "}
-            our system for incubating robust, profitable businesses through the execution of academic research in startup technology products. We are currently working on solving tariff and customs management, starting with construction companies in a product called Riff.
+            </LinkPreview>{" "}
+            is our system for incubating robust, profitable businesses through the execution of academic research in startup technology products. We are currently working on solving tariff and customs management, starting with construction companies in a product called Riff.
           </p>
+          <p>
+            Our team will post the progress for our projects under the Amelia system. We sell our products by speaking to people at events. If we fill their need for the right price, they buy it. Simple.
+          </p>
+        </Section>
+        <Section>
+          <h2 className="mb-3 md:mb-0 text-center md:text-left">CORE TEAM</h2>
+          <div className="col-span-2 flex flex-wrap gap-12 md:gap-24">
+            <TeamMember
+              name="Adam Blumenfeld"
+              profilePicturePath="/team/adam.jpeg"
+              title="CEO at CSX Labs"
+              twitter="https://x.com/nullref0"
+              linkedin="https://linkedin.com/in/nullstream"
+              github="https://github.com/ecsbeats"
+              keybase="https://keybase.io/nullref"
+            />
+            <TeamMember
+              name="Satvik Eltepu"
+              profilePicturePath="/team/satvik.jpeg"
+              title="CFO at CSX Labs"
+              twitter="https://x.com/nullref0"
+              linkedin="https://www.linkedin.com/in/satvik-eltepu/"
+              github="https://github.com/satvikel4"
+            />
+            <TeamMember
+              name="Srujan Murthy"
+              profilePicturePath="/team/srujan.jpeg"
+              title="COO at CSX Labs"
+              linkedin="https://www.linkedin.com/in/srinidhi-murthy-800604261/"
+              github="https://github.com/coder-sys/"
+            />
+          </div>
         </Section>
       </div>
     </>
@@ -76,8 +110,70 @@ export default function Home() {
 
 const Section: React.FC<React.PropsWithChildren> = ({ children }) => {
   return (
-    <div className="flex flex-col gap-6 md:grid md:grid-cols-3 md:gap-24">
+    <div className="flex flex-col gap-6 md:mr-24 md:grid md:grid-cols-3 md:gap-24">
       {children}
+    </div>
+  )
+}
+
+const TeamMember: React.FC<{
+  name: string, 
+  profilePicturePath: string,
+  title: string,
+  twitter?: string,
+  linkedin?: string,
+  github?: string,
+  keybase?: string
+}> = ({ name, profilePicturePath, title, twitter, linkedin, github, keybase }) => {
+  return (
+    <div className="flex gap-10">
+      <Image
+        src={profilePicturePath}
+        width={100}
+        height={100}
+        className="rounded-full"
+        alt={"Portrait of " + name}
+      />
+      <div className="flex-col space-y-3">
+        <div>
+          <h1 className="text-lg">{name}</h1>
+          <h2>{title}</h2>
+        </div>
+        <div className="flex gap-2 text-lg">
+          {twitter &&
+            <Link
+              href={twitter}
+              target="_blank"
+              >
+              <Icon icon="prime:twitter" />
+            </Link>
+          }
+          {linkedin &&
+            <Link
+              href="https://linkedin.com/nullstream"
+              target="_blank"
+              >
+                <Icon icon="mdi:linkedin" />
+            </Link>
+          }
+          {github &&
+            <Link
+              href="https://github.com/ecsbeats"
+              target="_blank"
+              >
+              <Icon icon="mdi:github" />
+            </Link>
+          }
+          {keybase &&
+            <Link
+              href={keybase}
+              target="_blank"
+              >
+              <Icon icon="material-symbols:key" />
+            </Link>
+          }
+        </div>
+      </div>
     </div>
   )
 }

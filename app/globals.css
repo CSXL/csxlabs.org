@@ -9,4 +9,8 @@
         @apply text-neutral-800;
         @apply bg-neutral-50;
     }
+
+    :root {
+      --radius: 0.5rem;
+    }
 }
