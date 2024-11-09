@@ -115,7 +115,7 @@ export default function Home() {
             </ul>
             BY PHONE
             <p className="mt-4 mb-12">
-              We are operational between 8:30am-5pm PT weekdays, if we can't pick up we will get back to you within 24 hours: +1 (925) 307-9351
+              We are operational between 8:30am-5pm PT weekdays, if we can&apos;t pick up we will get back to you within 24 hours: +1 (925) 307-9351
             </p>
           </div>
           <div>
