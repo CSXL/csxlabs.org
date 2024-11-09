@@ -3,6 +3,7 @@ import { LinkPreview } from "@/components/ui/link-preview";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import clsx from "clsx";
 
 export default function Home() {
   return (
@@ -90,7 +91,6 @@ export default function Home() {
               name="Satvik Eltepu"
               profilePicturePath="/team/satvik.jpeg"
               title="CFO at CSX Labs"
-              twitter="https://x.com/nullref0"
               linkedin="https://www.linkedin.com/in/satvik-eltepu/"
               github="https://github.com/satvikel4"
             />
@@ -103,14 +103,47 @@ export default function Home() {
             />
           </div>
         </Section>
+        <Section className="gap-0">
+          <h1 className="mb-12 sm:mb-0">CONTACT</h1>
+          <div>
+            BY EMAIL
+            <ul className="mt-4 mb-12">
+              <li>General Information: info@csxlabs.org</li>
+              <li>Sales: sales@csxlabs.org</li>
+              <li>Partnerships: partnerships@csxlabs.org</li>
+              <li>Governments, Defense, and Intelligence: governments@csxlabs.org</li>
+            </ul>
+            BY PHONE
+            <p className="mt-4 mb-12">
+              We are operational between 8:30am-5pm PT weekdays, if we can't pick up we will get back to you within 24 hours: +1 (925) 307-9351
+            </p>
+          </div>
+          <div>
+            BY MAIL
+            <p className="mt-4 mb-4">
+              Please refrain from sending large packages to this address. If you must make a large shipment, please contact us first.
+            </p>
+            <p className="mb-12">
+              2108 N Street STE 4995<br />
+              Sacramento, CA 95816-5712<br />
+              USA
+            </p>
+          </div>
+        </Section>
+        <Section>
+          <div>COPYRIGHT</div>
+          <div className="col-span-2">
+            Copyright &copy; 2024 CSX Labs, LLC. All rights reserved.
+          </div>
+        </Section>
       </div>
     </>
   );
 }
 
-const Section: React.FC<React.PropsWithChildren> = ({ children }) => {
+const Section: React.FC<React.PropsWithChildren & { className?: string }> = ({ children, className }) => {
   return (
-    <div className="flex flex-col gap-6 md:mr-24 md:grid md:grid-cols-3 md:gap-24">
+    <div className={clsx(className, "flex flex-col gap-6 md:mr-24 md:grid md:grid-cols-3 md:gap-24")}>
       {children}
     </div>
   )
@@ -150,7 +183,7 @@ const TeamMember: React.FC<{
           }
           {linkedin &&
             <Link
-              href="https://linkedin.com/nullstream"
+              href={linkedin}
               target="_blank"
               >
                 <Icon icon="mdi:linkedin" />
@@ -158,7 +191,7 @@ const TeamMember: React.FC<{
           }
           {github &&
             <Link
-              href="https://github.com/ecsbeats"
+              href={github}
               target="_blank"
               >
               <Icon icon="mdi:github" />

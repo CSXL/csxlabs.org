@@ -8,7 +8,7 @@ const schibested_grotesk = Schibsted_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "CSX Labs",
-  description: "We bring research to market.",
+  description: "We bring research to market."
 };
 
 export default function RootLayout({
@@ -18,6 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.svg" sizes="any" />
+      </head>
       <body className={clsx(schibested_grotesk.className, 'dark bg-neutral-800 text-neutral-50')}>
         <Header 
           links={[
