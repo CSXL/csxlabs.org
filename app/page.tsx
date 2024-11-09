@@ -77,7 +77,7 @@ export default function Home() {
         </Section>
         <Section>
           <h2 className="mb-3 md:mb-0 text-center md:text-left">CORE TEAM</h2>
-          <div className="col-span-2 flex flex-wrap gap-12 md:gap-24">
+          <div className="col-span-2 flex flex-wrap gap-12 md:gap-24 md:grid md:grid-cols-2">
             <TeamMember
               name="Adam Blumenfeld"
               profilePicturePath="/team/adam.jpeg"
@@ -100,6 +100,18 @@ export default function Home() {
               title="COO at CSX Labs"
               linkedin="https://www.linkedin.com/in/srinidhi-murthy-800604261/"
               github="https://github.com/coder-sys/"
+            />
+            <TeamMember
+              name="Mohammad Sakib"
+              profilePicturePath="/team/sakib.jpg"
+              title="Software Engineer at CSX Labs"
+              linkedin="https://www.linkedin.com/in/md-sakib79/"
+              github="https://github.com/sakibmohammad79"
+            />
+            <TeamMember
+              name="David Pearce"
+              profilePicturePath="/team/david.jpeg"
+              title="Head of Engineering at CSX Labs"
             />
           </div>
         </Section>
