@@ -3,6 +3,7 @@ import { Schibsted_Grotesk } from "next/font/google";
 import clsx from "clsx";
 import "./globals.css";
 import { Header } from "@/components/Header";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import LogRocketProvider from "@/lib/logrocket";
 
 const schibested_grotesk = Schibsted_Grotesk({ subsets: ["latin"] });
@@ -34,6 +35,7 @@ export default function RootLayout({
           {children}
         </body>
         <LogRocketProvider />
+        <GoogleAnalytics gaId="G-52RRC0M2SE" />
     </html>
   );
 }
