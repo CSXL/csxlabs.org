@@ -21,7 +21,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.svg" sizes="any" />
       </head>
-      <body className={clsx(schibested_grotesk.className, 'dark bg-neutral-800 text-neutral-50')}>
+      <body className={clsx(schibested_grotesk.className, 'dark bg-gradient-to-br from-neutral-800 via-neutral-900 to-neutral-950 text-neutral-50')}>
         <Header 
           links={[
             {
