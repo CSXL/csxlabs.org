@@ -111,7 +111,7 @@ export default function Home() {
             <TeamMember
               name="David Pearce"
               profilePicturePath="/team/david.jpeg"
-              title="Head of Engineering at CSX Labs"
+              title="Aerospace Engineer at CSX Labs"
             />
           </div>
         </Section>
