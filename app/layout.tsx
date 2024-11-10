@@ -31,8 +31,9 @@ export default function RootLayout({
               }
             ]}
           />
-          <LogRocketProvider>{children}</LogRocketProvider>
+          {children}
         </body>
+        <LogRocketProvider />
     </html>
   );
 }
