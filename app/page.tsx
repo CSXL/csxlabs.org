@@ -76,7 +76,7 @@ export default function Home() {
           </p>
         </Section>
         <Section>
-          <h2 className="mb-3 md:mb-0 text-left">CORE TEAM</h2>
+          <h2 className="mb-3 md:mb-0 text-left">TEAM</h2>
           <div className="col-span-2 flex flex-wrap gap-12 md:gap-24 md:grid md:grid-cols-2">
             <TeamMember
               name="Adam Blumenfeld"
