@@ -35,7 +35,7 @@ export default function RootLayout({
           {children}
         </body>
         <LogRocketProvider />
-        <GoogleAnalytics gaId="G-52RRC0M2SE" />
+        <GoogleAnalytics gaId="G-XTRXBNZ8KY" />
     </html>
   );
 }

@@ -91,27 +91,21 @@ export default function Home() {
               name="Satvik Eltepu"
               profilePicturePath="/team/satvik.jpeg"
               title="CFO at CSX Labs"
-              linkedin="https://www.linkedin.com/in/satvik-eltepu/"
-              github="https://github.com/satvikel4"
             />
             <TeamMember
               name="Srujan Murthy"
               profilePicturePath="/team/srujan.jpeg"
               title="COO at CSX Labs"
-              linkedin="https://www.linkedin.com/in/srinidhi-murthy-800604261/"
-              github="https://github.com/coder-sys/"
             />
             <TeamMember
               name="Mohammad Sakib"
               profilePicturePath="/team/sakib.jpg"
               title="Software Engineer at CSX Labs"
-              linkedin="https://www.linkedin.com/in/md-sakib79/"
-              github="https://github.com/sakibmohammad79"
             />
             <TeamMember
               name="David Pearce"
               profilePicturePath="/team/david.jpeg"
-              title="Aerospace Engineer at CSX Labs"
+              title="Engineer at CSX Labs"
             />
           </div>
         </Section>
