@@ -98,11 +98,6 @@ export default function Home() {
               title="COO at CSX Labs"
             />
             <TeamMember
-              name="Mohammad Sakib"
-              profilePicturePath="/team/sakib.jpg"
-              title="Software Engineer at CSX Labs"
-            />
-            <TeamMember
               name="David Pearce"
               profilePicturePath="/team/david.jpeg"
               title="Engineer at CSX Labs"
