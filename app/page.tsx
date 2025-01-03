@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <div className="h-screen w-full text-center content-center">
-        <h1 className="flex items-center justify-center text-left text-wrap p-4 text-2xl">a for-profit AI and design research institution</h1>
+        <h1 className="flex items-center justify-center text-left text-wrap p-4 text-2xl">a for-profit research institution</h1>
       </div>
       <div className="p-4 text-sm flex flex-col gap-24">
         <Section>
@@ -96,11 +96,6 @@ export default function Home() {
               name="Srujan Murthy"
               profilePicturePath="/team/srujan.jpeg"
               title="COO at CSX Labs"
-            />
-            <TeamMember
-              name="David Pearce"
-              profilePicturePath="/team/david.jpeg"
-              title="Engineer at CSX Labs"
             />
           </div>
         </Section>
