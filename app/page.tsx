@@ -11,7 +11,7 @@ export default function Home() {
     <div className="min-h-screen bg-neutral-950 text-neutral-50">
       <PageRulers />
       <HeaderRuler />
-      <div className="pt-4 pb-16 pl-12 pr-12">
+      <div className="pt-20 pb-16 pl-12 pr-12">
         <div className="max-w-6xl mx-auto">
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
@@ -142,6 +142,15 @@ export default function Home() {
             </div>
           </div>
 
+        </div>
+      </div>
+      
+      {/* Footer Ruler */}
+      <div className="bg-neutral-950 border-t border-neutral-400 h-8 mx-8 mb-8">
+        <div className="flex items-center justify-center h-full">
+          <div className="text-xs font-mono text-neutral-400">
+            © 2025 CSX LABS - ALL RIGHTS RESERVED
+          </div>
         </div>
       </div>
     </div>
