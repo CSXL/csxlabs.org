@@ -54,7 +54,7 @@ export const HeaderRuler: React.FC<HeaderRulerProps> = ({
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="Toggle menu"
         >
-          <Icon icon={isMenuOpen ? "mdi:close" : "mdi:menu"} size={16} />
+          <Icon icon={isMenuOpen ? "mdi:close" : "mdi:menu"} width={16} height={16} />
         </button>
       </div>
 
