@@ -5,9 +5,19 @@ import { ResearchCard } from "../components/ui/ResearchCard";
 import { PartnershipLogo } from "../components/ui/PartnershipLogo";
 import { CompanyInfoSection } from "../components/sections/CompanyInfoSection";
 
+type News = {
+  text: string;
+  link: string;
+};
+
+const leftNews: News[] = [];
+const rightNews: News[] = [];
+const bottomNews: News[] = [];
+const topNews: News[] = [];
+
 export default function Home() {
   return (
-    <C3Layout>
+    <C3Layout leftNews={leftNews} rightNews={rightNews} bottomNews={bottomNews} topNews={topNews}>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
         <ProjectCard
           title="CUSTOMS AUTOMATION SYSTEM"
