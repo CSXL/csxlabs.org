@@ -14,3 +14,25 @@
       --radius: 0.5rem;
     }
 }
+
+@layer utilities {
+    @keyframes marquee {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+    }
+    
+    @keyframes marquee-reverse {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(100%); }
+    }
+    
+    @keyframes marquee-up {
+        0% { transform: translateY(100%); }
+        100% { transform: translateY(-100%); }
+    }
+    
+    @keyframes marquee-down {
+        0% { transform: translateY(-100%); }
+        100% { transform: translateY(100%); }
+    }
+}

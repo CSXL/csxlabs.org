@@ -7,6 +7,18 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    // Marquee animations with common durations
+    'animate-[marquee_30s_linear_infinite]',
+    'animate-[marquee-reverse_30s_linear_infinite]',
+    'animate-[marquee-up_30s_linear_infinite]',
+    'animate-[marquee-down_30s_linear_infinite]',
+    // Add other common durations if needed
+    'animate-[marquee_20s_linear_infinite]',
+    'animate-[marquee-reverse_20s_linear_infinite]',
+    'animate-[marquee-up_20s_linear_infinite]',
+    'animate-[marquee-down_20s_linear_infinite]',
+  ],
   theme: {
   	extend: {
   		fontFamily: {
