@@ -63,11 +63,11 @@ const contactInfoItems = [
 export default function Contact() {
   return (
     <C3Layout leftNews={leftNews} rightNews={rightNews} bottomNews={bottomNews} topNews={topNews}>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <div className="grid grid-cols-1 lg:grid-cols-1 gap-12">
         {/* Contact Form */}
-        <div>
+        {/* <div>
           <ContactFormCard />
-        </div>
+        </div> */}
 
         {/* Contact Information */}
         <div>
