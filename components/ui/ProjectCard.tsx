@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface ProjectCardProps {
   title: string;
@@ -21,7 +22,16 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   <Link href={link} target="_blank" className={`group ${className}`}>
     <div className="border border-neutral-400 bg-neutral-900/30 overflow-hidden hover:border-neutral-300 transition-colors">
       <div className="h-32 bg-neutral-800 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-neutral-800 to-neutral-700"></div>
+        {image ? (
+          <Image
+            src={image}
+            alt={title}
+            fill
+            className="object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+        ) : (
+          <div className="absolute inset-0 bg-gradient-to-r from-neutral-800 to-neutral-700"></div>
+        )}
         <div className="absolute top-2 right-2 text-xs text-neutral-200 bg-neutral-900/80 px-2 py-1 font-mono">
           {status}
         </div>

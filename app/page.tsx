@@ -5,6 +5,10 @@ import { ResearchCard } from "../components/ui/ResearchCard";
 import { PartnershipLogo } from "../components/ui/PartnershipLogo";
 import { CompanyInfoSection } from "../components/sections/CompanyInfoSection";
 
+import riffImage from "@/public/products/riff.webp";
+import ashleyImage from "@/public/products/ashley.png";
+import sierraImage from "@/public/products/sierra.png";
+
 type News = {
   text: string;
   link: string;
@@ -20,20 +24,29 @@ export default function Home() {
     <C3Layout leftNews={leftNews} rightNews={rightNews} bottomNews={bottomNews} topNews={topNews}>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
         <ProjectCard
-          title="CUSTOMS AUTOMATION SYSTEM"
-          description="AI-powered trade and tariff management platform for government agencies"
+          title="COMMERCIAL TARIFF CLASSIFICATION SYSTEM"
+          description="AI-powered trade and tariff management platform for critical US suppliers and trade partners."
           status="OPERATIONAL"
-          link="https://github.com/csxlabs/customs-ai"
+          link="https://riff.csxlabs.org/"
+          image={riffImage.src}
         />
         <ProjectCard
-          title="INTELLIGENCE ANALYSIS FRAMEWORK"
-          description="Natural language processing system for automated report generation"
+          title="ASHLEY INTELLIGENCE SYSTEM"
+          description="AI-powered intelligence analysis and automatic collection framework for intelligence agencies."
           status="DEVELOPMENT"
-          link="https://github.com/csxlabs/intel-framework"
+          link="#"
+          image={ashleyImage.src}
+        />
+        <ProjectCard
+          title="SIERRA"
+          description="AI-powered naval intelligence platform to track and contextualize dark ships and vessels."
+          status="DEVELOPMENT"
+          link="#"
+          image={sierraImage.src}
         />
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
+      {/* <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
         <ResearchCard
           title="AUTONOMOUS DECISION SYSTEMS"
           publication="Nature Machine Intelligence, 2024"
@@ -52,32 +65,32 @@ export default function Home() {
           authors="CSX Labs Research Team"
           link="https://ieeexplore.ieee.org/document/xxx"
         />
-      </div>
+      </div> */}
 
       <div className="grid grid-cols-2 lg:grid-cols-6 gap-6 mb-12">
         <PartnershipLogo
-          name="NCIRC"
+          name="Northern California Regional Intelligence Center"
           link="https://ncirc.gov"
         />
         <PartnershipLogo
-          name="UC Berkeley"
-          link="https://berkeley.edu"
+          name="The Center for Independent Living"
+          link="https://thecil.org"
         />
         <PartnershipLogo
-          name="Stanford"
-          link="https://stanford.edu"
+          name="Microsoft Azure IL5"
+          link="https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-dod-il5"
         />
         <PartnershipLogo
-          name="MIT"
-          link="https://mit.edu"
+          name="Google Cloud IL5"
+          link="https://cloud.google.com/blog/products/identity-security/introducing-google-cloud-support-for-impact-level-5-workloads"
         />
         <PartnershipLogo
-          name="Google"
-          link="https://google.com"
+          name="FreightOS"
+          link="https://www.freightos.com/"
         />
         <PartnershipLogo
-          name="Microsoft"
-          link="https://microsoft.com"
+          name="ClearIt Customs"
+          link="https://clearitusa.com/"
         />
       </div>
 
