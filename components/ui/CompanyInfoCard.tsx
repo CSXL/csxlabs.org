@@ -13,11 +13,11 @@ export const CompanyInfoCard: React.FC<CompanyInfoCardProps> = ({
   mono = false, 
   className = "" 
 }) => (
-  <div className={`border border-neutral-500 bg-neutral-900/50 p-3 ${className}`}>
+  <div className={`border border-neutral-500 bg-neutral-900/50 p-3 flex flex-col ${className}`}>
     <div className="text-xs text-neutral-200 mb-2 font-mono">
       {title}
     </div>
-    <div className={`text-xs text-neutral-50 ${mono ? 'font-mono' : ''}`}>
+    <div className={`text-xs text-neutral-50 flex-1 flex items-start ${mono ? 'font-mono' : ''}`}>
       {content}
     </div>
   </div>

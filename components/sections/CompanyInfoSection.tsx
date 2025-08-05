@@ -65,18 +65,19 @@ export const CompanyInfoSection: React.FC<CompanyInfoSectionProps> = ({
   items = defaultCompanyInfo,
   className = ""
 }) => (
-  <div className={`mb-12 ${className}`}>
-    <div className="border border-neutral-400 bg-neutral-900/30 p-4">
+  <div className={`h-full ${className}`}>
+    <div className="border border-neutral-400 bg-neutral-900/30 p-4 h-full flex flex-col">
       <div className="text-xs text-neutral-200 mb-6 pb-2 border-b border-neutral-500 font-mono">
         {title}
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 gap-4 flex-1">
         {items.map((item, index) => (
           <CompanyInfoCard
             key={index}
             title={item.title}
             content={item.content}
             mono={item.mono}
+            className="h-full"
           />
         ))}
       </div>

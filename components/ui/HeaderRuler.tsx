@@ -16,8 +16,7 @@ interface HeaderRulerProps {
 }
 
 const defaultNavigation = [
-  { label: "PROJECTS", href: "/projects" },
-  { label: "RESEARCH", href: "/research" },
+  { label: "ABOUT", href: "/" },
   { label: "CONTACT", href: "/contact" },
 ];
 

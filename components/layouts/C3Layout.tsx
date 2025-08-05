@@ -60,7 +60,7 @@ export const C3Layout: React.FC<C3LayoutProps> = ({
   footerText = "© 2025 CSX LABS - ALL RIGHTS RESERVED"
 }) => {
   return (
-    <div className="min-h-screen bg-neutral-950 text-neutral-50">
+    <div className="min-h-screen bg-neutral-950 text-neutral-50 flex flex-col">
       {/* Streaming Rulers */}
       <StreamingRuler 
         position="top" 
@@ -91,7 +91,7 @@ export const C3Layout: React.FC<C3LayoutProps> = ({
       <HeaderRuler />
       
       {/* Main Content */}
-      <div className="pt-20 pb-16 pl-12 pr-12">
+      <div className="pt-20 pb-16 pl-12 pr-12 flex-1">
         <div className="max-w-6xl mx-auto">
           {children}
         </div>

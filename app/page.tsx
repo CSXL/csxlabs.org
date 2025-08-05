@@ -37,13 +37,15 @@ export default function Home() {
           link="#"
           image={ashleyImage.src}
         />
-        <ProjectCard
-          title="SIERRA"
-          description="AI-powered naval intelligence platform to track and contextualize dark ships and vessels."
-          status="DEVELOPMENT"
-          link="#"
-          image={sierraImage.src}
-        />
+        <div className="lg:col-span-2">
+          <ProjectCard
+            title="SIERRA"
+            description="AI-powered naval intelligence platform to track and contextualize dark ships and vessels."
+            status="DEVELOPMENT"
+            link="#"
+            image={sierraImage.src}
+          />
+        </div>
       </div>
 
       {/* <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
